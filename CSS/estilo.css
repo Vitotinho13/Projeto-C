@@ -1,0 +1,120 @@
+@import url();
+@import url();
+
+.Menu {
+  position: absolute;
+  height: 30px;
+  width: 100%;
+  padding-top: 0;
+  margin-left: auto;
+  margin-right: auto; 
+  display: block;
+  background-color: rgba(0, 0, 0, 0);
+}
+  
+.Menu a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #2a913b;
+  display: inline-block; 
+
+  }
+.Menu a:hover {
+    background-color: gainsboro;
+    color: rgb(56, 56, 56);
+    transition: 0.45s;
+  }
+  
+.Menu a.active {
+    color: #303234;
+  }
+
+body{
+  background-color: white;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%; 
+    margin: 0;
+    padding: 0  ;
+}
+
+h1{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+}
+
+.projeto1{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    color: gray;
+    text-align: center;
+    font-size: 25px;
+  }
+.projeto1 h1{
+  color: #2a913b;
+}
+.con{
+  color: #d3660c;
+}
+.pri{
+  color: rgb(255, 47, 32);
+}
+.out{
+  color: rgb(3, 58, 32);
+}
+.inv{
+  color: rgb(58, 60, 206);
+}
+.projeto1 p{
+  color: #303234;
+}
+.principal{
+  padding:  20px;
+}
+.principal h2{
+  font-size: 38px;
+}
+header{
+  display: block;
+  width: auto;
+  height: auto;
+  padding-top: 0px;
+
+}
+li{
+  display: inline-block;
+}
+.CELC{
+  text-align: left;
+  display: inline-block;
+  font-size: 30px;
+  position: absolute;
+  padding-left: 20px;
+
+}
+.CELC1{
+  color: rgb(119, 119, 119);
+  font-size: 15px;
+  display: inline-block;
+  padding-left: 22px;
+}
+.logo{
+  width: 80px;
+  height: 70px;
+  padding-top: 10px;
+  padding-left: 6px;
+}
+
+.imagem{
+  width: 576px;
+  height: 384px;   
+  margin: 15px;
+}
+.circuito{
+  font-size: 33px;
+  color: #d3660c;
+}
